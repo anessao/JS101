@@ -59,18 +59,26 @@ for(var j=0; j<fruit.length; j++) {
 }
 
 //write a for loop that increments by 10 each time = 10 times;
-for (var k=0; k<101; k+=10) {
+for (var k=0; k<100; k=k+10) {
 	console.log("k",k);
 }
 
 //for loop that pushes the index to an array for 5 times console.log (array) \\ [0,1,2,3,4]
 var number = [];
-for(var l=0; l<5; l++) {
- number.unshift(l);
- console.log(number);
+for(var i=0; i<5; i++) {
+	number.push(i);
 }
+console.log(number)
 
 //for loop that starts at 100 and divides by 2 each time, 3 times = 100,50,25
+
+var num = 100;
+for (var m = 0; m < 3; m++) {
+	console.log("divide: ", num);
+	num = num / 2;
+}
+
+
 
 
 
